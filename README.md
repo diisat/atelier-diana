@@ -2,6 +2,8 @@
 
 A personal portfolio for Diana Torres: software engineering, international experience and a creative direction in progress. The interface and case studies are available in English, French and Spanish.
 
+[Figma design](https://www.figma.com/design/cObMo6HmqOecANy1XJoIxN) · [Continuous integration](https://github.com/diisat/atelier-diana/actions) · [Verification record](docs/verification.md)
+
 ## What is included
 
 - An editorial home page with burgundy, ivory and lilac colours.
@@ -11,6 +13,7 @@ A personal portfolio for Diana Torres: software engineering, international exper
 - A placeholder for a future introduction video.
 - A keyboard- and touch-accessible hobby game with progress and restart controls.
 - A Java API serving translated project content from a relational database.
+- Five editable Figma views, with portable SVG sources in `docs/design/`.
 
 The marketing AI assistant is explicitly marked **in progress**. Project illustrations are original visual interpretations, not screenshots of client products. The academic M.I.O. project credits the collaboration with Juan David Bolaños.
 

@@ -27,11 +27,13 @@ Cormorant Garamond provides the editorial headings. DM Sans is used for interfac
 
 ## Figma handoff
 
-`figma-build.js` contains the editable five-screen construction source prepared for the Figma MCP Plugin API: desktop home, profile, project study, playground and mobile home. It uses palette variables, layout containers, reusable project cards and button instances, plus prototype connections. It is a construction script, not a `.fig` file or a standalone browser script.
+The [Figma design file](https://www.figma.com/design/cObMo6HmqOecANy1XJoIxN) belongs to Diana’s Figma workspace. It contains five views under `Atelier / Screens`: desktop home, profile, project study, playground and mobile home.
 
-The initially connected Figma account was not the account Diana wanted. Its created portfolio nodes were removed after her correction. Do not use that discarded file as the design deliverable. Re-run the construction only in the verified Diana account, upload the portrait to its returned photo targets, then inspect the complete screens and fix any layout defects before publishing a Figma link.
+The Figma connector became unavailable after the account reconnection. The final views were therefore imported through the Figma editor as SVG layers generated from the running site's observed layout. Text, shapes, vector illustrations and portrait masks remain editable. Cormorant Garamond and DM Sans were mapped to their Figma font families; the hero and complete board overview were visually checked.
 
-The running website is the verified visual reference for the final handoff. The Figma construction remains subject to that final comparison.
+These are composed visual mockups. They do not include a Figma component library, responsive auto-layout rules or wired prototype interactions. The running website provides the working interactions and remains the reference for responsive behaviour and translations.
+
+Portable SVGs and their captured layout data are in `docs/design/`. Run `node scripts/design-svg.mjs` from the repository root to regenerate the SVGs from that saved data. The data is a snapshot; it does not update automatically when the website changes. Small typography and decorative differences between SVG import and browser rendering are expected.
 
 ## Inspiration
 
